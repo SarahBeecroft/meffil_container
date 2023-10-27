@@ -216,5 +216,10 @@ and plots of selected candidate CpG sites.
     meffil.ewas.report(ewas.summary, output.file="ewas/report.html")
 
 
+## Using meffil in a container with Singularity
+```bash
+singularity pull docker://quay.io/sarahbeecroft9/meffil:latest
+singularity exec meffil_latest.sif R
+```
 
 
